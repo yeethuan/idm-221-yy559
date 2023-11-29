@@ -6,7 +6,7 @@ h1 {
     font-family: verdana;
     color: lightsalmon;
     font-size:5em;
-    margin-left: 5em;
+    margin-left: 2em;
 }
 div {
     padding-top: 5em;
@@ -16,4 +16,8 @@ h2 {
     font-family: cambria;
     color: black;
     font-size:3em;
+    margin-left: 2em;
+}
+p {
+    margin-left: 2em;
 }
