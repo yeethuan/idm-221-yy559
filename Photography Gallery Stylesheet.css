@@ -1,29 +1,6 @@
 div {
     padding-top: 3em;
 }
-h1 {
-    font-family: verdana;
-    color: rgb(205,103,103);
-    font-size:5em;
-    margin-left: 50px;
-    margin-top: 200px;
-}
-div {
-    padding-top: 5em;
-}
-h2 {
-    font-family: cambria;
-    color: black;
-    font-size:3em;
-    margin-left: 50px;
-}
-p {
-    margin-left: 50px;
-}
-img {
-    margin-left: 50px;
-}
-
 
 .tablink {
     background-color:rgb(174,20,20);
@@ -49,10 +26,26 @@ img {
     text-align: center;
 }
 
-#London {background-color:red;}
-#Paris {background-color:green;}
-#Tokyo {background-color:blue;}
-#Oslo {background-color:orange;}
-</style>
-</head>
-<body>
+h1 {
+    font-family: verdana;
+    color: rgb(205,103,103);
+    font-size:5em;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+
+h2 {
+    font-family: cambria;
+    color: black;
+    font-size:3em;
+    margin-left: 50px;
+    margin-right: 200px;
+}
+p {
+    margin-left: 50px;
+    margin-right: 200px;
+}
+img {
+    margin-left: 200px;
+    margin-right: 200px
+}
