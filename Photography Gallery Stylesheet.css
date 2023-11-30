@@ -28,7 +28,7 @@ img {
 .tablink {
     background-color:rgb(174,20,20);
     color: white;
-    float: center;
+    float: none;
     border: none;
     outline: none;
     cursor: pointer;
@@ -45,7 +45,7 @@ img {
 .tabcontent {
     color: rgb(255, 255, 255);
     display: none;
-    padding: 200px;
+    padding: 50px;
     text-align: center;
 }
 
