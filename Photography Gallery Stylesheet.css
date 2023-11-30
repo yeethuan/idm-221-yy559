@@ -38,7 +38,7 @@ img {
 }
 
 .tablink:hover {
-    background-color: #777;
+    background-color:hsl(from 229,67,63 h s l);
 }
 
   /* Style the tab content */
