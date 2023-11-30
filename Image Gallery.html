@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Icon Bar (Sidebar - hidden on small screens) -->
-<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-    <!-- Avatar image in top left corner -->
-    <img src="media/Emily.jpg" alt="Emily" height="300">
-    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
-    <i class="fa fa-home w3-xxlarge"></i>
-    <p>HOME</p>
-    </a>
-    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-user w3-xxlarge"></i>
-    <p>ABOUT</p>
-    </a>
-    <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-eye w3-xxlarge"></i>
-    <p>PHOTOS</p>
-    </a>
-    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-envelope w3-xxlarge"></i>
-    <p>CONTACT</p>
-    </a>
-</nav>
+<div id="London" class="tabcontent">
+    <h1>London</h1>
+    <p>London is the capital city of England.</p>
+</div>
+
+<div id="Paris" class="tabcontent">
+    <h1>Paris</h1>
+    <p>Paris is the capital of France.</p>
+</div>
+
+<div id="Tokyo" class="tabcontent">
+    <h1>Tokyo</h1>
+    <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<div id="Oslo" class="tabcontent">
+    <h1>Oslo</h1>
+    <p>Oslo is the capital of Norway.</p>
+</div>
+
+<button class="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">London</button>
+<button class="tablink" onclick="openCity('Paris', this, 'green')">Paris</button>
+<button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Tokyo</button>
+<button class="tablink" onclick="openCity('Oslo', this, 'orange')">Oslo</button>
 
 <head>
     <link rel="stylesheet" href="Photography Gallery Stylesheet.css"> 
@@ -29,6 +32,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Photography Gallery</title>
 </head>
+
+<!-- Photo Gallery -->
 <h1>Photography Gallery</h1>
 
 <!-- Image insertion -->
