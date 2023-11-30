@@ -28,7 +28,7 @@ img {
 .tablink {
     background-color:rgb(174,20,20);
     color: white;
-    float: right;
+    float: middle;
     border: none;
     outline: none;
     cursor: pointer;
