@@ -29,23 +29,29 @@ div {
  /* Tab */
 
 
+
 h1 {
     font-family: verdana;
     color: rgb(205,103,103);
     font-size:5em;
-    margin-left: 50px;
+    margin-left: 200px;
     margin-top: 200px;
 }
+
 
 h2 {
     font-family: cambria;
     color: black;
     font-size:3em;
-    margin-left: 50px;
+    margin-left: 200px;
 }
-p {
-    margin-left: 50px;
-}
+
+
 h3 {
     text-align: center
+}
+
+
+p {
+    margin-left: 200px;
 }
