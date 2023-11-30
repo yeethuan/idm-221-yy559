@@ -1,60 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <link rel="stylesheet" href="Photography Gallery Stylesheet.css">
+    <link rel="stylesheet" href="Photography Gallery Stylesheet.css"> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Photography Gallery</title>
+
+<div id="Home" class="tabcontent">
+    <h1>Home</h1>
+    <p>London is the capital city of England.</p>
+</div>
+
+<div id="Portfolio" class="tabcontent">
+    <h1>Portfolio</h1>
+    <p>Paris is the capital of France.</p>
+</div>
+
+<div id="Gallery" class="tabcontent">
+    <h1>Gallery</h1>
+    <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<div id="Contact" class="tabcontent">
+    <h1>Contact</h1>
+    <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<button class="tablink" onclick="openCity('Home, this, 'red')" id="defaultOpen">Home</button>
+<button class="tablink" onclick="openCity('Portfolio', this, 'green')">Portfolio</button>
+<button class="tablink" onclick="openCity('Gallery', this, 'blue')">Gallery</button>
+<button class="tablink" onclick="openCity('Contact', this, 'yellow')">Contact</button>
+
+
 </head>
 
-<body>
+<!-- Photo Gallery -->
+<h1>Photography Gallery</h1>
 
-    <!-- Content for the tabs -->
-    <div id="Home" class="tabcontent">
-        <h1>Home</h1>
-        <p>London is the capital city of England.</p>
+<!-- Image insertion -->
+<div class="gallery">
+    <img src="media/Vincent.jpg" alt="Vincent" height="300">
+    <img src="media/Emily.jpg" alt="Emily" height="300">
+    <img src="media/Sophia.jpg" alt="Sophia" height="300">
+    <img src="media/Anthony.jpg" alt="Anthony" height="300">
+</div>
+
+<!-- Contact Section -->
+<div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+<div class="w3-section">
+    <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Philadelphia, PA</p>
+    <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: (215) 433-0185</p>
+    <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: yangyihuan4@gmail.com</p>
     </div>
+    <br>
+    <p>Let's get in touch. Send me a message:</p>
 
-    <div id="Portfolio" class="tabcontent">
-        <h1>Portfolio</h1>
-        <p>Paris is the capital of France.</p>
-    </div>
-
-    <div id="Gallery" class="tabcontent">
-        <h1>Gallery</h1>
-        <p>Tokyo is the capital of Japan.</p>
-    </div>
-
-    <div id="Contact" class="tabcontent">
-        <h1>Contact</h1>
-        <p>Tokyo is the capital of Japan.</p>
-    </div>
-
-    <button class="tablink" onclick="openCity('Home', this, 'red')" id="defaultOpen">Home</button>
-    <button class="tablink" onclick="openCity('Portfolio', this, 'green')">Portfolio</button>
-    <button class="tablink" onclick="openCity('Gallery', this, 'blue')">Gallery</button>
-    <button class="tablink" onclick="openCity('Contact', this, 'yellow')">Contact</button>
-
-    <!-- Photo Gallery -->
-    <h1>Photography Gallery</h1>
-
-    <!-- Image insertion -->
-    <div class="gallery">
-        <img src="media/Vincent.jpg" alt="Vincent" height="300">
-        <img src="media/Emily.jpg" alt="Emily" height="300">
-        <img src="media/Sophia.jpg" alt="Sophia" height="300">
-        <img src="media/Anthony.jpg" alt="Anthony" height="300">
-    </div>
-
-    <!-- Contact Section -->
-    <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
-        <!-- ... (your contact section) ... -->
-    </div>
+    <form action="/action_page.php" target="_blank">
+    <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+    <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+    <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+    <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+    <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+    </p>
+    </form>
+<!-- End Contact Section -->
+</div>
 
     <!-- Footer -->
-    <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-        <!-- ... (your footer section) ... -->
-    </footer>
-
-    <!-- End of body -->
+<footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+<!-- End footer -->
+</footer>
 </body>
 
 </html>
