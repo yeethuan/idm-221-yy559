@@ -3,7 +3,7 @@ div {
 }
 h1 {
     font-family: verdana;
-    color: lightsalmon;
+    color: rgb(205,103,103);
     font-size:5em;
     margin-left: 50px;
     margin-top: 200px;
@@ -26,7 +26,7 @@ img {
 
 
 .tablink {
-    background-color:rgb(209,0,0);
+    background-color:rgb(174,20,20);
     color: white;
     float: left;
     border: none;
@@ -38,7 +38,7 @@ img {
 }
 
 .tablink:hover {
-    background-color:rgb(97,121,224,1);
+    background-color:rgb(205,103,103);
 }
 
   /* Style the tab content */
