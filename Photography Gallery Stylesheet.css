@@ -1,0 +1,25 @@
+div {
+    padding-top: 3em;
+}
+h1 {
+    font-family: verdana;
+    color: lightsalmon;
+    font-size:5em;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+div {
+    padding-top: 5em;
+}
+h2 {
+    font-family: cambria;
+    color: black;
+    font-size:3em;
+    margin-left: 50px;
+}
+p {
+    margin-left: 50px;
+}
+img {
+    margin-left: 50px;
+}
