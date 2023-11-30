@@ -48,10 +48,9 @@ p {
 
 div.gallery {
     margin-left: 200px;
-    margin: 5px;
     margin-right: 200px;
     border: 1px solid #ccc;
-    float: none;
+    float: left;
     width: 180px;
 }
 
