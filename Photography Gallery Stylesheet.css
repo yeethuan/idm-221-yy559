@@ -33,7 +33,6 @@ img {
     outline: none;
     cursor: pointer;
     padding: 14px 16px;
-    padding-top: 200px;
     font-size: 17px;
     width: 25%;
 }
@@ -46,7 +45,7 @@ img {
 .tabcontent {
     color: rgb(255, 255, 255);
     display: none;
-    padding: 50px;
+    padding: 200px;
     text-align: center;
 }
 
