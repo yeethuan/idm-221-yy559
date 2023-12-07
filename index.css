@@ -31,7 +31,7 @@
 <body>
 
 
- /* Tab */
+ /* END Nav Bar */
 
 div {
     margin-top: 3em;
@@ -39,11 +39,10 @@ div {
 
 h1 {
     font-family: verdana;
-    color: rgb(205,103,103);
+    color: #CD6767;
     font-size:5em;
     margin-left: 200px;
     margin-right: 200px;
-    margin-top: 200px;
 }
 
 
@@ -67,7 +66,7 @@ p {
 }
 
 .button {
-    background-color: #04AA6D; /* Green */
+    background-color: #CD6767; /* Pink */
     border: none;
     color: white;
     padding: 15px 32px;
