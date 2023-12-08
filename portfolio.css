@@ -77,6 +77,22 @@ p {
     color:#706A63;
 }
 
+.container {
+    padding-top: 2em;
+    text-align: left;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: sans-serif;
+    text-decoration: none;
+    background-color: #597692;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
 img {
     max-width: 100%;
