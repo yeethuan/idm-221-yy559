@@ -1,58 +1,74 @@
-  /* Tab */
-.topnav {
-    overflow: hidden;
-    background-color: #ae1414;
-    display: flex;
-    justify-content: center;
+/* HAMBURGER SIDEBAR */
+.sidebar {
+    height: 100%;
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed;
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #597692; 
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px;
+    transition: 0.5s;
 }
 
-.topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 15px 200px;
-    font-family: calibri;
-    font-weight: bold;
+  /* menu items */
+.sidebar a {
+    padding: 8px 8px 8px 32px;
     text-decoration: none;
+    font-size: 25px;
+    color: #F0EAE0;
+    display: block;
+    transition: 0.3s;
+}
+
+  /* change color when hovering menu items */
+.sidebar a:hover {
+    color: #CD6767;
+}
+
+  /* positioning and styling the close button (top right corner) */
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+  /* hamburger to open the sidebar */
+.openbtn {
     font-size: 20px;
-}
-
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-.topnav a.active {
-    background-color: #CD6767;
+    cursor: pointer;
+    background-color: #597692;
     color: white;
+    padding: 10px 15px;
+    border: none;
 }
-</style>
-</head>
-<body>
+
+.openbtn:hover {
+    background-color: #444;
+}
+/* HAMBURGER SIDEBAR END */
 
 
- /* Tab */
 
 
 h1 {
     font-family: verdana;
-    color: rgb(205,103,103);
-    font-size:5em;
-    margin-left: 200px;
-    margin-right:200px;
+    color: #597692;
+    font-size:3em;
 }
 
-h2 {
-    font-family: cambria;
-    color: black;
-    font-size:3em;
-    margin-left: 200px;
-    margin-right: 200px;
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    text-align: center
 }
-p {
-    margin-left: 200px;
-    margin-right: 200px;
-}
+
 
 div.gallery {
     margin-left: 200px;
@@ -72,7 +88,7 @@ div.gallery img {
 }
 
 div.desc {
-    margin-left: 200px;
+    margin:0;
     padding: 15px;
     text-align: center;
 }

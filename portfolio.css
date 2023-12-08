@@ -72,6 +72,9 @@ h3 {
     color:#AE1414;
 }
 
+
+
+
 p {
     font-family:verdana;
     color:#706A63;
@@ -104,7 +107,23 @@ img {
 }
 
 .container2 {
-    padding-top: 3px;
+    padding-top: 5;
     text-align: center;
     line-height: 1.5;
+}
+
+
+
+h4 {
+    font-family:'Franklin Gothic Medium';
+    color:#597692;
+    text-align: center;
+    padding-top: 2em;
+}
+
+#section2 {
+    font-family: Verdana;
+    font-size:1em;
+    color: #706A63;
+    text-align: center;
 }
