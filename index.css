@@ -71,13 +71,13 @@ h3 {
 
 
 p {
+    font-family: Verdana, Tahoma, sans-serif;
     padding-top: 1em;
 }
 
 
-
 .button {
-    background-color: #CD6767; /* Pink */
+    background-color: #CD6767;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -85,7 +85,7 @@ p {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin-right: 200px;
-    display: flex;
-    justify-content: center;
+    font-family: sans-serif;
+    margin: 4px 2px;
+    cursor: pointer;
 }
