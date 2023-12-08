@@ -1,4 +1,4 @@
-/* sidebar menu strip*/
+/* HAMBURGER SIDEBAR */
 .sidebar {
     height: 100%;
     width: 0; /* 0 width - change this with JavaScript */
@@ -12,7 +12,7 @@
     transition: 0.5s;
 }
 
-  /* The sidebar links */
+  /* menu items */
 .sidebar a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -27,7 +27,7 @@
     color: #CD6767;
 }
 
-  /* Positioning and styling the close button (top right corner) */
+  /* positioning and styling the close button (top right corner) */
 .sidebar .closebtn {
     position: absolute;
     top: 0;
@@ -36,7 +36,7 @@
     margin-left: 50px;
 }
 
-  /* Hamburger to open the sidebar */
+  /* hamburger to open the sidebar */
 .openbtn {
     font-size: 20px;
     cursor: pointer;
@@ -49,19 +49,19 @@
 .openbtn:hover {
     background-color: #444;
 }
-
+/* HAMBURGER SIDEBAR END */
 
 h1 {
     font-family: sans-serif;
     color: #597692;
-    font-size:5em;
+    font-size:3em;
 }
 
 
 h2 {
     font-family: 'Gill Sans';
     color: #597692;
-    font-size:2em;
+    font-size:1em;
 }
 
 
