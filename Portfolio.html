@@ -8,24 +8,43 @@
     <title>Portfolio</title>
 </head>
 
-<div class="topnav">
-    <a href="index.html">Home</a>
-    <a class="active" href="#portfolio">Portfolio</a>
-    <a href="gallery.html">Gallery</a>
-</div>
-
 <body>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="gallery.html">Gallery</a>
+        <script>
+            function openNav() {
+            document.getElementById("mySidebar").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+            }
+            
+            function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("main").style.marginLeft= "0";
+            }
+            </script>
+    </div>
+    
+    <div id="main">
+        <button class="openbtn" onclick="openNav()">&#9776;</button>
+    </div>
 
     <h1>PORTFOLIO</h1>
-    <hr>
 
-    <h2>Resume:</h2>
-    <p><a href="https://drive.google.com/file/d/1qd-Z5gxAXSYlmHJaEMdNJNSK9tYTrbcV/view?usp=sharing" target="_blank">View Resume</a></p>
+    <div class="container">
+        <a href="2023-resume-8.pdf" class="button">Resume PDF</a>
+    </div>
 
-    <h2>PROFESSIONAL EXPERIENCE</h2>
-    <hr>
+
+    <h2>RELEVANT EXPERIENCES</h2>
+
 
     <h3>Asian Americans United</h3>
+    <div>
+        <img src="aau.webp" alt="AAU Project" width="500"> 
+    </div>
     <p>
         I have been involved with AAU since working as a high school intern to learn about social justice issues and
         current events in the community. This summer, I worked as a program co-lead to curate a 6-week intensive high
@@ -35,6 +54,7 @@
         the context of sensitive topics like those mentioned above for research purposes.
     </p>
 
+
     <h3>Bloomberg Arts Internship at the Fabric Workshop and Museum</h3>
     <p>
         During my time as a Development Intern, I completed competitive analysis of 10+ museum membership programs to
@@ -43,15 +63,6 @@
         and Ahmed Alsoudani. I also presented a final project on my fabric design print.
     </p>
 
-    <h2>Activities</h2>
-    <hr>
-
-    <h3>Asian Students Association - Conference Director (23 - 24)</h3>
-    <h3>Society of Asian Scientists and Engineers - Cultural Director (23 - 24)</h3>
-    <h3>Global China Connection - Finance Chair (22 - 23)</h3>
-
-    <h2>Projects</h2>
-    <hr>
 
     <h3>Asian American Philadelphia Advocacy Conference</h3>
     <p>
@@ -60,6 +71,13 @@
         designed graphics to promote the event, resulting in an attendance of 80+ attendees; this was double the amount
         from previous years.
     </p>
+
+
+    <h2>Activities</h2>
+    <p>Asian Students Association - Conference Director (23 - 24)</p>
+    <p>Society of Asian Scientists and Engineers - Cultural Director (23 - 24)</p>
+    <p>Global China Connection - Finance Chair (22 - 23)</p>
+
 
 </body>
 
