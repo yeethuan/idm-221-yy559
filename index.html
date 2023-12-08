@@ -10,41 +10,44 @@
 
 
 <body>
-    <div id="myLinks">
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="index.html">Home</a>
         <a href="portfolio.html">Portfolio</a>
         <a href="gallery.html">Gallery</a>
+        <script>
+            function openNav() {
+            document.getElementById("mySidebar").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+            }
+            
+            function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("main").style.marginLeft= "0";
+            }
+            </script>
     </div>
     
-    <div>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-            </a>
+    <div id="main">
+        <button class="openbtn" onclick="openNav()">&#9776;</button>
     </div>
 
 
-    <h1>Hi I'm Yi Huan</h1>
+    <h1>Hi my name is</h1>
+    <h1>Yi Huan</h1>
+
+    <h2>
+        Drexel University Undergraduate | UXID
+    </h2>
+
+    <img src="headshot.webp" alt="headshot" height= "300"
 
     <p>
-        I use she/her pronouns and I am an undergraduate studying User Experience Interaction
-        Design who is currently based in Philadelphia. As an ISFP I really enjoy both meeting new people and spending time with friends, but also having alone time for myself. A couple of hobbies I
-        enjoy include hiking, kayaking, cooking, martial arts, and dance.
+        I am an aspiring UX/UI Designer based in Philly who values community advocacy and accessibility. A couple activities I enjoy include hiking, kayaking, cooking, martial arts, dance, graphic design and photography!
     </p>
 
-    <p>
-        In terms of community involvement, I am very in touch with my ethnic and racial identity as I am currently on
-        the executive board for two student organizations as the Conference Director for Asian Students Association and
-        Cultural Director for the Society of Asian Scientists and Engineers.
-    </p>
 
-    <h2>Photography:</h2>
-    <p>
-        I have been doing photography for about 6 years now, and while I enjoy various styles of photography, I have
-        been leaning more towards portrait photography. I shoot with a Canon EOS 80D using a 35-55 mm lens or 50-75 mm
-        lens.
-    </p>
-
-    <a href="file:///C:/Users/yangy/OneDrive/Desktop/Classes/idm-221-yy559/gallery.html">View Gallery</a>
+    <a href="gallery.html">Photography</a>
 
     <h2>Contact Info:</h2>
     <p>Work: <a href="mailto:yy559@drexel.edu">yy559@drexel.edu</a></p>

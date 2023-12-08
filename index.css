@@ -1,69 +1,67 @@
-  /* Tab */
-.mobile-container {
-    max-width: 480px;
-    margin: auto;
-    background-color: #555;
-    height: 500px;
-    color: white;
-    border-radius: 10px;
-}
-
-.topnav {
-    overflow: hidden;
-    background-color: #333;
-    position: relative;
-}
-
-.topnav #myLinks {
-    display: none;
-}
-
-.topnav a {
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-}
-
-.topnav a.icon {
-    background: black;
-    display: block;
-    position: absolute;
-    right: 0;
+/* sidebar menu strip*/
+.sidebar {
+    height: 100%;
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed;
+    z-index: 1; /* Stay on top */
     top: 0;
+    left: 0;
+    background-color: #597692; 
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px;
+    transition: 0.5s;
 }
 
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
+  /* The sidebar links */
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #F0EAE0;
+    display: block;
+    transition: 0.3s;
 }
 
-.active {
-    background-color: #04AA6D;
+  /* change color when hovering menu items */
+.sidebar a:hover {
+    color: #CD6767;
+}
+
+  /* Positioning and styling the close button (top right corner) */
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+  /* Hamburger to open the sidebar */
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #597692;
     color: white;
+    padding: 10px 15px;
+    border: none;
 }
- /* END Nav Bar */
 
-div {
-    margin-top: 3em;
+.openbtn:hover {
+    background-color: #444;
 }
+
 
 h1 {
-    font-family: verdana;
-    color: #CD6767;
+    font-family: sans-serif;
+    color: #597692;
     font-size:5em;
-    margin-left: 200px;
-    margin-right: 200px;
 }
 
 
 h2 {
-    font-family: cambria;
-    color: black;
-    font-size:3em;
-    margin-left: 200px;
-    margin-right: 200px;
+    font-family: 'Gill Sans';
+    color: #597692;
+    font-size:2em;
 }
 
 
