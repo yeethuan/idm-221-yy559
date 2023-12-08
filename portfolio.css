@@ -76,3 +76,11 @@ p {
     font-family:verdana;
     color:#706A63;
 }
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    text-align: center
+}
