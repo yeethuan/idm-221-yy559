@@ -51,42 +51,67 @@
 }
 /* HAMBURGER SIDEBAR END */
 
+
+/* Hi my name is*/
 h1 {
-    font-family: sans-serif;
+    font-family: verdana;
     color: #597692;
     font-size:3em;
 }
+/* Hi my name is end*/
 
-
+/* Undergrad UXID */
 h2 {
     font-family: 'Gill Sans';
     color: #597692;
     font-size:1em;
 }
+/* Undergrad UXID end*/
 
-
+/* Check out my work */
 h3 {
-    text-align: center
+    font-family:'Franklin Gothic Medium';
+    color:#CD6767;
+    text-align: center;
+    padding-top: 2em;
+}
+/* Check out my work end*/
+
+
+/* Short bio about me */
+#section1 {
+    font-family: Verdana;
+    font-size:1em;
+    color: #706A63;
 }
 
-
-p {
-    font-family: Verdana, Tahoma, sans-serif;
-    padding-top: 1em;
-    color: #706A63
+.section1-image {
+    padding-bottom:1em;
 }
+/* Short bio about me end */
 
+
+/* Photog button */
+.container {
+    text-align: center;
+}
 
 .button {
-    background-color: #CD6767;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+    padding: 10px 20px;
     font-size: 16px;
     font-family: sans-serif;
-    margin: 4px 2px;
+    text-decoration: none;
+    background-color: #597692;
+    color: white;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
+}
+/* Photog button end */
+
+#section2 {
+    font-family: Verdana;
+    font-size:1em;
+    color: #706A63;
+    text-align: center;
 }
