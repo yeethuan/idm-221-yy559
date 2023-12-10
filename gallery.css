@@ -1,13 +1,13 @@
 /* HAMBURGER SIDEBAR */
 .sidebar {
     height: 100%;
-    width: 0; /* 0 width - change this with JavaScript */
+    width: 0; 
     position: fixed;
-    z-index: 1; /* Stay on top */
+    z-index: 1; 
     top: 0;
     left: 0;
     background-color: #597692; 
-    overflow-x: hidden; /* Disable horizontal scroll */
+    overflow-x: hidden; 
     padding-top: 60px;
     transition: 0.5s;
 }
@@ -47,7 +47,7 @@
 }
 
 .openbtn:hover {
-    background-color: #444;
+    background-color: #597692;
 }
 /* HAMBURGER SIDEBAR END */
 
