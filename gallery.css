@@ -55,6 +55,11 @@
 
 
 
+
+
+
+
+
 h1 {
     font-family: verdana;
     color: #597692;
@@ -74,9 +79,9 @@ img {
 
 
 div.gallery {
-    border: 1px solid #ccc;
     float: left;
     width:fit-content;
+    text-align: center;
 }
 
 div.gallery:hover {

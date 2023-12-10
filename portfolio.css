@@ -114,6 +114,7 @@ img {
     height: auto;
     margin: 0;
     text-align: center;
+    width:fit-content;
 }
 
 .container2 {
