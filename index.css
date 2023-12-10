@@ -76,6 +76,7 @@ h2 {
 }
 /* Undergrad UXID end*/
 
+
 /* Check out my work */
 h3 {
     font-family:'Franklin Gothic Medium';
@@ -86,15 +87,9 @@ h3 {
 /* Check out my work end*/
 
 
-/* Short bio about me */
-#section1 {
-    font-family: Verdana;
-    font-size:1em;
-    line-height: 1.5;
-    color: #706A63;
-    margin-left:5px;
-}
 
+
+/* Short bio about me and headshot */
 div.gallery {
     font-family: Verdana;
     font-size:1em;
@@ -107,6 +102,7 @@ div.gallery:hover {
     border: 0px;
     float: left;
     width:fit-content;
+    margin-left: 5px;
 }
 
 div.gallery img {
@@ -119,7 +115,7 @@ div.desc {
     padding: 15px;
     text-align: center;
 }
-/* Short bio about me end */
+/* Short bio about me and headshot end */
 
 
 /* Photog button */

@@ -78,15 +78,15 @@ h3 {
     font-family:'Franklin Gothic Medium';
     color:#AE1414;
     margin-left:5px;
+    padding-top: 10px;
 }
-
 
 
 
 p {
     font-family:verdana;
     color:#706A63;
-    line-height: 1.5;
+    line-height: 1.5em;
     font-size:1em;
     margin-left:5px;
 }
@@ -118,11 +118,9 @@ img {
 }
 
 .container2 {
-    padding-top: 5;
-    text-align: center;
-    line-height: 1.5;
+    padding-top: 7px;
+    padding-bottom: 0px;
 }
-
 
 
 h4 {
