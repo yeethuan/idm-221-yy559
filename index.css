@@ -83,6 +83,7 @@ h3 {
     color:#CD6767;
     text-align: center;
     padding-top: 2em;
+    font-size: 16px;
 }
 /* Check out my work end*/
 
@@ -118,6 +119,9 @@ div.desc {
 /* Short bio about me and headshot end */
 
 
+
+
+
 /* Photog button */
 .container {
     text-align: center;
@@ -135,6 +139,8 @@ div.desc {
     cursor: pointer;
 }
 /* Photog button end */
+
+
 
 #section2 {
     font-family: Verdana;

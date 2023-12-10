@@ -58,7 +58,7 @@
 
 
 
-
+/* PORTFOLIO */
 h1 {
     font-family: verdana;
     color: #597692;
@@ -66,6 +66,8 @@ h1 {
     margin-left:5px;
 }
 
+
+/* Relevant Experiences and Activities */
 h2 {
     font-family: verdana;
     color: #CD6767;
@@ -74,6 +76,7 @@ h2 {
     margin-left:5px;
 }
 
+/* Specific Experience Titles */
 h3 {
     font-family:'Franklin Gothic Medium';
     color:#AE1414;
@@ -81,8 +84,7 @@ h3 {
     padding-top: 10px;
 }
 
-
-
+/* Normal Text */
 p {
     font-family:verdana;
     color:#706A63;
@@ -91,6 +93,11 @@ p {
     margin-left:5px;
 }
 
+
+
+
+
+/* Resume Button */
 .container1 {
     padding-top: 2em;
     text-align: left;
@@ -108,7 +115,11 @@ p {
     border-radius: 5px;
     cursor: pointer;
 }
+/* Resume Button End*/
 
+
+
+/* images of Relevant Experiences and description text settings */
 img {
     max-width: 100%;
     height: auto;
@@ -121,8 +132,12 @@ img {
     padding-top: 7px;
     padding-bottom: 0px;
 }
+/* images of Relevant Experiences and description text settings */
 
 
+
+
+/* let's get in touch */
 h4 {
     font-family:'Franklin Gothic Medium';
     color:#597692;
@@ -138,3 +153,4 @@ h4 {
     text-align: center;
     margin-left:5px;
 }
+/* let's get in touch end */
