@@ -54,10 +54,15 @@
 
 
 
+
+
+
+
 h1 {
     font-family: verdana;
     color: #597692;
     font-size:3em;
+    margin-left:5px;
 }
 
 h2 {
@@ -65,11 +70,13 @@ h2 {
     color: #CD6767;
     font-size: 22px;
     padding-top: 1em;
+    margin-left:5px;
 }
 
 h3 {
     font-family:'Franklin Gothic Medium';
     color:#AE1414;
+    margin-left:5px;
 }
 
 
@@ -80,6 +87,7 @@ p {
     color:#706A63;
     line-height: 1.5;
     font-size:1em;
+    margin-left:5px;
 }
 
 .container1 {
@@ -103,7 +111,7 @@ img {
     max-width: 100%;
     height: auto;
     margin: 0;
-    text-align: center
+    text-align: center;
 }
 
 .container2 {
@@ -119,6 +127,7 @@ h4 {
     color:#597692;
     text-align: center;
     padding-top: 2em;
+    margin-left:5px;
 }
 
 #section2 {
@@ -126,4 +135,5 @@ h4 {
     font-size:1em;
     color: #706A63;
     text-align: center;
+    margin-left:5px;
 }

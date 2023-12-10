@@ -44,6 +44,7 @@
     color: white;
     padding: 10px 15px;
     border: none;
+    margin-left: 5px;
 }
 
 .openbtn:hover {
@@ -58,6 +59,7 @@ h1 {
     font-family: verdana;
     color: #597692;
     font-size:3em;
+    margin-left: 5px;
 }
 
 
@@ -67,6 +69,7 @@ img {
     height: auto;
     margin: 0;
     text-align: center
+    margin: 5px;
 }
 
 
@@ -77,7 +80,7 @@ div.gallery {
 }
 
 div.gallery:hover {
-    border: 1px solid #777;
+    border: 0px;
 }
 
 div.gallery img {

@@ -52,11 +52,17 @@
 /* HAMBURGER SIDEBAR END */
 
 
+
+
+
+
+
 /* Hi my name is*/
 h1 {
     font-family: verdana;
     color: #597692;
     font-size:3em;
+    margin-left:5px;
 }
 /* Hi my name is end*/
 
@@ -65,6 +71,7 @@ h2 {
     font-family: verdana;
     color: #597692;
     font-size:1em;
+    margin-left:5px;
 }
 /* Undergrad UXID end*/
 
@@ -84,10 +91,13 @@ h3 {
     font-size:1em;
     line-height: 1.5;
     color: #706A63;
+    margin-left:5px;
 }
 
 .section1-image {
     padding-bottom:1em;
+    margin-left:5px;
+    text-align: center;
 }
 /* Short bio about me end */
 
