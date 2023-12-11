@@ -83,11 +83,11 @@ div.gallery {
     float: left;
     width:fit-content;
     text-align: center;
-    margin-right: 18px;
 }
 
 div.gallery:hover {
     border: 0px;
+    margin-right: 18px;
 }
 
 div.gallery img {
