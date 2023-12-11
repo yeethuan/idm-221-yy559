@@ -81,7 +81,7 @@ h3 {
     font-family:'Franklin Gothic Medium';
     color:#AE1414;
     margin-left: 15px;
-    padding-top: 10px;
+    padding-top: 25px;
 }
 
 /* Normal Text */
@@ -91,6 +91,7 @@ p {
     line-height: 1.5em;
     font-size: 1em;
     margin-left: 15px;
+    margin-right: 15px;
 }
 
 
@@ -130,7 +131,7 @@ img {
 }
 
 .container2 {
-    padding-top: 7px;
+    padding-top: 0px;
     padding-bottom: 0px;
 }
 /* images of Relevant Experiences and description text settings */
