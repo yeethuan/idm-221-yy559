@@ -63,18 +63,16 @@ h1 {
     font-family: verdana;
     color: #597692;
     font-size: 48px;
-    margin-left:5px;
+    margin-left:10px;
 }
-/* Hi my name is end*/
 
 /* Undergrad UXID */
 h2 {
     font-family: verdana;
     color: #597692;
     font-size:14px;
-    margin-left:5px;
+    margin-left:10px;
 }
-/* Undergrad UXID end*/
 
 
 /* Check out my work */
@@ -86,8 +84,6 @@ h3 {
     padding-bottom: 0;
     font-size: 33px;
 }
-/* Check out my work end*/
-
 
 
 
@@ -97,14 +93,14 @@ div.gallery {
     font-size: 16px;
     line-height: 1.5;
     color: #706A63;
-    margin-left:5px;
+    margin-left:10px;
 }
 
 div.gallery:hover {
     border: 0px;
     float: left;
     width:fit-content;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 div.gallery img {
@@ -116,6 +112,14 @@ div.desc {
     margin:0;
     padding: 15px;
     text-align: center;
+}
+
+p {
+    font-family: Verdana;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #706A63;
+    margin-left:10px;
 }
 /* Short bio about me and headshot end */
 
@@ -143,6 +147,8 @@ div.desc {
 
 
 
+
+/* Let's get in touch */
 #section2 {
     font-family: Verdana;
     font-size: 14px;
