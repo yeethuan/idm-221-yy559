@@ -44,7 +44,7 @@
     color: white;
     padding: 10px 15px;
     border: none;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 .openbtn:hover {
@@ -89,18 +89,17 @@ h3 {
 
 /* Short bio about me and headshot */
 div.gallery {
-    font-family: Verdana;
-    font-size: 16px;
     line-height: 1.5;
-    color: #706A63;
     margin-left:10px;
+    margin-right: 10px;
 }
 
 div.gallery:hover {
     border: 0px;
-    float: left;
+    float: center;
     width:fit-content;
     margin-left: 10px;
+    margin-right: 10px;
 }
 
 div.gallery img {
