@@ -89,9 +89,10 @@ p {
     font-family:verdana;
     color:#706A63;
     line-height: 1.5em;
-    font-size: 1em;
+    font-size: 14px;
     margin-left: 15px;
     margin-right: 15px;
+    text-align: left;
 }
 
 
@@ -127,7 +128,7 @@ img {
     margin-left: 15px;
     margin-right: 15px;
     text-align: right;
-    width:fit-content;
+    width:max-content;
 }
 
 .container2 {
@@ -142,6 +143,7 @@ img {
 /* let's get in touch */
 h4 {
     font-family:'Franklin Gothic Medium';
+    font-size: 33px;
     color:#597692;
     text-align: center;
     padding-top: 2em;
@@ -150,9 +152,10 @@ h4 {
 
 #section2 {
     font-family: Verdana;
-    font-size: 1em;
+    font-size: 16px;
     color: #706A63;
     text-align: center;
-    margin-left: 15px;
+    margin-bottom: 5em;
+    line-height: 1.5;
 }
 /* let's get in touch end */
