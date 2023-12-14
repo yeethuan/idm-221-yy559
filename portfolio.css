@@ -123,17 +123,17 @@ p {
 
 /* images of Relevant Experiences and description text settings */
 img {
-    max-width: 100%;
     height: auto;
-    margin-left: 15px;
-    margin-right: 15px;
     text-align: right;
-    width:max-content;
+    width:100%;
 }
 
 .container2 {
     padding-top: 0px;
     padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin:auto;
 }
 /* images of Relevant Experiences and description text settings */
 
@@ -142,7 +142,7 @@ img {
 
 /* let's get in touch */
 h4 {
-    font-family:'Franklin Gothic Medium';
+    font-family:'Franklin Gothic Medium, Cambria';
     font-size: 33px;
     color:#597692;
     text-align: center;
