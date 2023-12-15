@@ -60,7 +60,7 @@
 
 /* Hi my name is*/
 h1 {
-    font-family:verdana;
+    font-family: verdana;
     color: #597692;
     font-size: 40px;
     margin-left:15px;
@@ -68,7 +68,7 @@ h1 {
 
 /* Undergrad UXID */
 h2 {
-    font-family: 'exo/exo-extrabold';
+    font-family: verdana;
     color: #597692;
     font-size:14px;
     margin-left:15px;
@@ -77,11 +77,10 @@ h2 {
 
 /* Check out my work */
 h3 {
-    font-family:'Franklin Gothic Medium';
+    font-family:'Verdana';
     color:#CD6767;
     text-align: center;
     padding-top: 1em;
-    padding-bottom: 0;
     font-size: 33px;
 }
 
@@ -129,12 +128,13 @@ p {
 /* Photog button */
 .container {
     text-align: center;
+    padding-top: 60px;
 }
 
 .button {
-    padding: 10px 20px;
-    font-size: 16px;
-    font-family: sans-serif;
+    padding: 20px 30px;
+    font-size: 14px;
+    font-family: verdana;
     text-decoration: none;
     background-color: #597692;
     color: white;
