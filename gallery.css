@@ -84,6 +84,8 @@ div.gallery {
     width:fit-content;
     text-align: center;
     color: #ffffff;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 div.gallery:hover {
