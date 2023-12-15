@@ -67,7 +67,12 @@ h1 {
     margin-left: 15px;
 }
 
-
+p {
+    font-family: verdana;
+    color: #706A63;
+    font-size:14px;
+    margin-left: 15px;
+}
 
 img {
     width: 100%;
