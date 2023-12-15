@@ -41,7 +41,7 @@
     font-size: 20px;
     cursor: pointer;
     background-color: #597692;
-    color: white;
+    color: #F0EAE0; 
     padding: 10px 15px;
     border: none;
     margin-left: 15px;
@@ -70,12 +70,10 @@ h1 {
 
 
 img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     margin: 0;
     text-align: center;
-    margin-left: 15px;
-    margin-right: 19px;
     margin-top: 15px;
 
 }
@@ -85,11 +83,13 @@ div.gallery {
     float: left;
     width:fit-content;
     text-align: center;
-    color:white;
+    color: #ffffff;
 }
 
 div.gallery:hover {
     border: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 div.gallery img {
@@ -107,7 +107,7 @@ div.desc {
 
 /* Let's get in touch */
 h2 {
-    font-family:'Franklin Gothic Medium';
+    font-family: verdana;
     font-size: 33px;
     color:#AE1414;
     text-align: center;
@@ -117,7 +117,7 @@ h2 {
 
 
 #section2 {
-    font-family: Verdana;
+    font-family: verdana;
     font-size: 16px;
     color: #706A63;
     text-align: center;
