@@ -54,23 +54,34 @@
 /* HAMBURGER SIDEBAR END */
 
 
+
+h1 {
+  font-family: verdana;
+  color: #597692;
+  font-size:40px;
+  margin-left: 15px;
+}
+
+
+h2 {
+  font-family:verdana;
+  color:#AE1414;
+  margin-left: 15px;
+  padding-top: 25px;
+}
+
+/* Color A Smile */
 div.gallery {
   line-height: 1.5;
   margin-left:15px;
   margin-right: 15px;
 }
 
-div.gallery:hover {
-  border: 0px;
-  float: center;
-  width:fit-content;
-  margin-left: 15px;
-  margin-right: 15px;
-}
 
 div.gallery img {
   width: 100%;
   height: auto;
+  border-radius: 5%;
 }
 
 div.desc {
