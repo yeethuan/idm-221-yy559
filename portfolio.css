@@ -54,6 +54,14 @@
 /* HAMBURGER SIDEBAR END */
 
 
+
+h1 {
+    font-family: verdana;
+    color: #597692;
+    font-size:40px;
+    margin-left: 15px;
+}
+
 /* WebDesign */
 .container1 {
     padding-top: 2em;
