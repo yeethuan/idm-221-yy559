@@ -1,3 +1,61 @@
+/* HAMBURGER SIDEBAR */
+.sidebar {
+    height: 100%;
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed;
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #597692; 
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+  /* menu items */
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #F0EAE0;
+    display: block;
+    transition: 0.3s;
+    font-family: verdana;
+}
+
+  /* change color when hovering menu items */
+.sidebar a:hover {
+    color: #CD6767;
+}
+
+  /* positioning and styling the close button (top right corner) */
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+  /* hamburger to open the sidebar */
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #597692;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    margin-left: 15px;
+}
+
+.openbtn:hover {
+    background-color: #444;
+}
+/* HAMBURGER SIDEBAR END */
+
+
+
+
 /* Resume Button */
 .container1 {
     padding-top: 2em;
